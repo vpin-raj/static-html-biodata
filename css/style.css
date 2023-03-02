@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+    
+}
+
+.container{
+    height:100vh;
+    display: flex;
+}
+.profile-image{
+    width:30%;
+    background-color: gray;
+    background-image:url('/assets/john.jpg');
+    background-size: cover;
+    background-position: center;
+    /* color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px; */
+}
+.profile-section{
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+
+    width:100%;
+}
+.personal-info .name {
+    color: #686565;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.personal-info .role {
+    color: #686565;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hr-info{
+    border-top:  1px solid #c0c0c0;
+    width:40%;
+}
+
+.profile-section{
+    width:70%;
+}
+
+.tech-stack{
+    display: flex;
+    width:100%;
+}
+
+.tech{
+    width:80px;
+    height:80px;
+    margin-right: 25px;
+    /* background-blend-mode: lighten; */
+    -webkit-filter: grayscale(60%); 
+    filter: grayscale(60%);
+}
+
+.skills {
+    height:380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-name{
+    color: #686565;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.skill-progress{
+    width:40%
+}
